@@ -1,0 +1,495 @@
+﻿@charset "UTF-8";
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0;}
+  
+body {
+  margin: 0 auto;
+  width: 1280px;}
+  
+/*_____<Классы стилей, применяемые для многих элементов сайта>_____*/
+.all_width {
+  width: 1280px;}
+
+.display_inline_block {
+  vertical-align: top;
+  display: inline-block;}
+ 
+.text_color_gold {
+  color: #b99867;}
+
+.bg_gold {
+    background: #b99867;}
+   
+.text_color_blue {
+  color: #294057;}
+
+.bg_blue {
+  background: #294057;}
+   
+.about__form {
+  border: 1px solid black;
+  background: white;
+  color: black; 
+  width: 300px;
+  height: 42px;
+  font-size: 16px;
+  position: absolute;
+  left: 100px;}
+  
+.about-foto {
+  width: 640px;
+  height: 640px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;}
+
+input {text-transform: uppercase;}
+
+/*_____</Классы стилей, применяемые для многих элементов сайта>_____*/  
+
+/*--------------------<header>-------------------*/
+
+.header-fix {
+  height: 100px;
+  position: fixed;
+  background: white;}
+ 
+  header {
+  height: 100px;
+  position: relative;}
+
+.head__logo {
+  width: 500px;
+  height: 80px;
+  margin-left: 30px;
+  margin-top: 23px;}
+
+nav {
+  position: absolute;
+  top: 38px;
+  left: 400px;}
+
+.nav__li {
+  list-style: none;
+  margin-left: 70px;
+  margin-right: 20px;}
+
+.nav__link {
+  font-size: 26px;
+  text-decoration: none;}
+
+.nav__main {
+  color: #b99867;}
+
+.nav__main:visited {
+  color: #b99867;}
+
+.nav__link__blue {
+  color: #294057;}
+
+.nav__link__blue:hover {
+  color: #b99867;}
+
+.head__basket {
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 10px;
+  right: 10px;}
+
+.basket__link {
+  position: absolute;
+  top: 0;
+  right: 0;}
+
+.basket__img {
+  font-size: 26px;
+  width: 100px;
+  height: 100px;}
+/*---------------------</header>-----------------------*/
+/*---------------------<footer>------------------------*/
+footer {
+  height: 300px;
+  background: #294057;
+  position: relative;}
+
+.form__title {
+  padding-top: 55px;
+  color: white;
+  text-align: center;
+  font-size: 22px;}
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: -10px;
+  position: absolute;
+  top: 256px;
+  left: 200px;}
+
+.my__form {
+  width: 600px;
+  height: 40px;}
+
+input {
+  border: 1px solid white;
+  background: #294057;
+  color: white;}
+
+#qwe {
+  width: 600px;
+  height: 42px;
+  font-size: 22px;
+  position: absolute;
+  top: 125px;
+  left: 200px;}
+
+#wer {
+  font-size: 22px;
+  width: 200px;
+  height: 44px;
+  position: absolute;
+  top: 125px;
+  left: 802px;
+  background: #b99867;
+  cursor: pointer;}
+/*---------------------</footer>-----------------------------*/
+.big-fixed-foto{
+  width: 1280px;
+  height: 760px;
+  background-image: url("../images/146948145212577443.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;}
+/*---------------------<content>-----------------------------*/
+
+.content {
+  height: 570px;}
+
+.content__topic {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin-top:25px;
+ /* top: 50px;
+  position: relative;}*/}
+
+.content__h1 {
+  font-size: 34px;
+  color: #294057;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: 7px;}
+
+.fistPage__books {
+  vertical-align: top;
+  height: 540px;
+  text-align: center;}
+
+.books {
+  margin-top: 40px;
+  width: 280px;
+  height: 300px;
+  margin-left: 20px;}
+
+.shop_button {
+  text-align: center;
+  margin: 60px auto;
+  background: white;
+  width: 250px;
+  height: 50px;
+  border: 2px solid rgba(41, 64, 87, 0.5);}
+
+.shop_button:hover {
+  background: rgba(41, 64, 87, 0.5);
+  border: none;}
+
+.shop_button::selection {
+  background: transparent;}
+
+.button__link {
+  display: block;
+  width: 250px;
+  height: 50px;
+  color: #b99867;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 50px;}
+
+.button__link:hover {
+  color: white;}
+
+.faq {
+  height: 200px;
+  background: #294057;
+  text-align: center;
+  padding-top: 20px;}
+
+.single {
+  font-size: 30px;
+  color: #b99867;}
+
+.pratchet {
+  font-style: italic;
+  font-size: 26px;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;}
+
+.terry {
+  font-size: 40px;
+  color: white;
+  line-height: 20px;}
+
+.container {
+  height: 1280px;}
+
+.about-foto1 {
+  background-image: url("../images/dragon.jpg");}
+
+.about-foto2 {
+  background-image: url("../images/magic.jpg");}
+
+.news {
+  width: 640px;
+  height: 640px;}
+
+.about__h3 {
+  font-size: 34px;
+  color: #b99867;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: 4px;
+  margin-top: 150px;
+  margin-left: 100px;}
+
+.conteiner__p {
+  width: 450px;
+  height: 300px;}
+
+.about__p {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 15px;
+  color: #7d7b7b;}
+
+.social {
+  height: 100px;
+  background: #b99867;
+  text-align: center;}
+
+.social__foto {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 160px;
+  margin-left: 10px;}
+/*---------------------</content>-----------------------------*/
+/*---------------------<about>--------------------------------*/
+input[placeholder="  Укажите Ваш email"]:focus {
+  background:#294057;
+  color: white;} 
+
+.about {
+  height: 640px;}
+
+.callback {
+  background: white;}
+
+#ert {
+  top: 320px;}
+
+
+
+#rty {
+  top: 365px;}
+
+#tyu {
+  top: 410px;}
+
+#yui { 
+  border: 1px solid #294057;
+  font-size: 16px;
+  position: absolute;
+  top: 460px;
+  left: 100px;}
+  
+#uio{
+  width: 200px;
+  height: 42px;    
+  border: 1px solid #294057;
+  font-size: 16px;
+  position: absolute;
+  top: 670px;
+  left: 100px; 
+  background: #b99867;
+  cursor: pointer;}
+
+.adress__ul {
+  margin-left: 50px;
+  margin-top: 50px;}
+
+.adress__li {
+  margin-top: 15px;
+  font-size: 22px;
+  list-style: none;
+  color: #294057;}
+.map {
+width: 500px;
+height: 500px;  
+margin: 0 auto;
+padding-bottom: 25px;}
+/*---------------------</about>-----------------*/
+/*---------------------<shop>-------------------*/
+.book-conteiner {
+  padding-top: 70px;
+  height: 100%;}
+
+.book-little {
+  width: 638px;
+  height: 640px;
+  text-align: center;}
+
+.book-little-link {
+  padding-top: 50px;}
+
+.book-little-p {
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 16px;
+  color: #294057;
+  text-align: justify;}
+
+.look {
+  margin-top: 35px;
+  font-size: 26px;
+  color: #b99867;}
+
+.look:visited {
+  color: #b99867;}
+
+.look:hover {
+  color: #294057; }
+/*---------------------</shop>-------------------*/
+/*---------------------<books>-------------------*/
+.big-foto-conteiner {
+  height: 600px;}
+
+.big-foto-foto {
+  margin-top: 50px;
+  margin-left: 50px;
+  border: 2px solid black;}
+ 
+.big-foto-foto:hover {
+    border-color: transparent;
+}
+
+.big-foto-table {
+  width: 400px;
+  height: 600px;
+  margin-left: 50px;}
+
+.coast {
+  margin-left: 50px;
+  width: 300px;
+  height: 230px;
+  margin-top: 100px;
+  text-align: center;}
+
+.bookcoast {
+  text-align: center;
+  font-size: 56px;
+  color: #294057;}
+
+.bookin {
+  text-align: center;
+  font-size: 46px;
+  color: #294057;}
+
+.bookbutton {
+  width: 300px;
+  height: 100px;
+  background: #294057;
+  line-height: 100px;} 
+
+.makeshoping {
+  display: block;
+  height: 100%;
+  font-size: 46px;
+  color: white;
+  text-decoration: none;}
+
+.shop-book-h3 {
+  font-size: 34px;
+  color: #294057;
+  position: absolute;
+  top: 210px;
+  left: 520px;}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse; 
+  margin: 10px;
+  margin-top: 180px;}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 14px;}
+
+.tdfist {
+  color: #294057;}
+
+.tdsecond {
+  color: #b99867;}
+
+.shop-book-description {
+  height: 230px;}
+
+.shop-book-description-h3 {
+  margin-top: 10px;
+  font-size: 34px;
+  color: #294057;}
+
+.shop-book-description-p3 {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 16px;
+  color: #294057;
+  text-indent: 45px;
+  text-align: justify;
+  
+  }
+
+ .shop-book-description-p3:first-letter {
+     font-size: 24px;
+     color: red;
+ }
+
+/*---------------------</books>-------------------*/
+a {
+  color: #b99867; }
+
+a:visited {
+  color: #294057;}
+
+a:active {
+  color: lightblue;}
+
